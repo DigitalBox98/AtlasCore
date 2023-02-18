@@ -1,6 +1,6 @@
 ﻿<Project>
     <PropertyGroup>
-        <BaseIntermediateOutputPath>..\build\DOLDatabase\$(Configuration)\</BaseIntermediateOutputPath>
+        <BaseIntermediateOutputPath>..\build\DOLDatabase\</BaseIntermediateOutputPath>
     </PropertyGroup>
     <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
     <PropertyGroup>
@@ -32,9 +32,9 @@
         <RegisterForComInterop>False</RegisterForComInterop>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="log4net" Version="2.0.13" />
-        <PackageReference Include="MySqlConnector" Version="2.0.0" />
-        <PackageReference Include="System.Data.SQLite.Core" Version="1.0.114.2" />
+        <PackageReference Include="log4net" Version="2.0.15" />
+        <PackageReference Include="MySqlConnector" Version="2.2.5" />
+        <PackageReference Include="System.Data.SQLite.Core" Version="1.0.117" />
     </ItemGroup>
     <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
 </Project>
